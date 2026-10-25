@@ -1,0 +1,108 @@
+{
+  "experiments": {
+    "wing_length": {
+      "predictor_unit": "cm",
+      "source_page": 14,
+      "n_recorded_releases": 15,
+      "n_settings": 3,
+      "n_independent_models": "not recorded",
+      "intercept_s": -0.08200000000000007,
+      "slope_per_original_predictor_unit": 0.2733333333333334,
+      "all_releases": {
+        "SSE_s2": 0.23084000000000024,
+        "SST_s2": 1.91184,
+        "R2": 0.8792576784668171,
+        "in_sample_RMSE_s": 0.12405375179063852
+      },
+      "group_means": {
+        "SSE_s2": 0.00021600000000000837,
+        "SST_s2": 0.3364159999999999,
+        "R2": 0.999357937791306
+      },
+      "within_setting_SS_s2": 0.22976000000000008,
+      "weighted_means_residual_SS_s2": 0.0010800000000000419,
+      "groups": [
+        {
+          "predictor_value": 6.0,
+          "count": 5,
+          "mean_s": 1.552,
+          "sample_sd_s": 0.09444575162494079,
+          "fitted_s": 1.558,
+          "mean_residual_s": -0.006000000000000005
+        },
+        {
+          "predictor_value": 7.5,
+          "count": 5,
+          "mean_s": 1.98,
+          "sample_sd_s": 0.10793516572461449,
+          "fitted_s": 1.9680000000000002,
+          "mean_residual_s": 0.01200000000000001
+        },
+        {
+          "predictor_value": 9.0,
+          "count": 5,
+          "mean_s": 2.372,
+          "sample_sd_s": 0.19201562436426892,
+          "fitted_s": 2.378,
+          "mean_residual_s": -0.0060000000000006715
+        }
+      ]
+    },
+    "weight": {
+      "predictor_unit": "g",
+      "source_page": 13,
+      "n_recorded_releases": 15,
+      "n_settings": 3,
+      "n_independent_models": "not recorded",
+      "intercept_s": 2.866291666666667,
+      "slope_per_original_predictor_unit": -0.28750000000000003,
+      "all_releases": {
+        "SSE_s2": 0.2980433333333331,
+        "SST_s2": 1.4882933333333332,
+        "R2": 0.7997415384064075,
+        "in_sample_RMSE_s": 0.14095941102159706
+      },
+      "group_means": {
+        "SSE_s2": 0.016432666666666682,
+        "SST_s2": 0.2544826666666668,
+        "R2": 0.9354271672726892
+      },
+      "within_setting_SS_s2": 0.21587999999999993,
+      "weighted_means_residual_SS_s2": 0.08216333333333342,
+      "groups": [
+        {
+          "predictor_value": 1.95,
+          "count": 5,
+          "mean_s": 2.358,
+          "sample_sd_s": 0.18753666308218236,
+          "fitted_s": 2.305666666666667,
+          "mean_residual_s": 0.05233333333333301
+        },
+        {
+          "predictor_value": 3.15,
+          "count": 5,
+          "mean_s": 1.8559999999999999,
+          "sample_sd_s": 0.06348228099241547,
+          "fitted_s": 1.960666666666667,
+          "mean_residual_s": -0.10466666666666713
+        },
+        {
+          "predictor_value": 4.35,
+          "count": 5,
+          "mean_s": 1.668,
+          "sample_sd_s": 0.12153188881935471,
+          "fitted_s": 1.615666666666667,
+          "mean_residual_s": 0.0523333333333329
+        }
+      ]
+    }
+  },
+  "analysis": "separate one-predictor fits; no pooled fit",
+  "author_clarification": {
+    "date": "2026-10-24",
+    "weight_unit": "g",
+    "model_specifications": "same specifications before manipulation",
+    "release_controls": "height 259 cm; initial speed and orientation held consistent",
+    "model_counts_and_assignment": "not specified"
+  }
+}
